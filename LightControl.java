@@ -23,7 +23,6 @@ public class LightControl {
     String Decision = keyboard.nextLine();
     if(Decision.equals("Y") || Decision.equals("y"))
     {
-      //System.out.println("He doesn't stand a chance...");
       Aggrivator();
     }
     else
@@ -60,7 +59,7 @@ public class LightControl {
         //TURN OFF
         for(int j = 0; j < 5; ++j) {
           for(int i = 1; i < 5; i++)  {
-            System.out.println("Fucking with light switch");
+            System.out.println("Toggling light switch");
             String number = "4";//Integer.toString(i);
             String body = "{\"on\":true}";
             String urlEnd = "/lights/" + number + "/state";
