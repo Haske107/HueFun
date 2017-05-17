@@ -1,0 +1,2871 @@
+{
+	"lights": {
+		"1": {
+			"state": {
+				"on": false,
+				"bri": 60,
+				"hue": 41491,
+				"sat": 78,
+				"effect": "none",
+				"xy": [
+					0.312,
+					0.328
+				],
+				"ct": 153,
+				"alert": "select",
+				"colormode": "ct",
+				"reachable": true
+			},
+			"type": "Extended color light",
+			"name": "Hue color lamp 1",
+			"modelid": "LCT014",
+			"manufacturername": "Philips",
+			"uniqueid": "00:17:88:01:02:55:4d:b5-0b",
+			"swversion": "1.15.2_r19181",
+			"swconfigid": "A315E69E",
+			"productid": "Philips-LCT014-1-A19ECLv4"
+		},
+		"2": {
+			"state": {
+				"on": false,
+				"bri": 60,
+				"hue": 41491,
+				"sat": 78,
+				"effect": "none",
+				"xy": [
+					0.312,
+					0.328
+				],
+				"ct": 153,
+				"alert": "none",
+				"colormode": "ct",
+				"reachable": true
+			},
+			"type": "Extended color light",
+			"name": "Hue color lamp 2",
+			"modelid": "LCT014",
+			"manufacturername": "Philips",
+			"uniqueid": "00:17:88:01:02:4d:5e:93-0b",
+			"swversion": "1.15.2_r19181",
+			"swconfigid": "A315E69E",
+			"productid": "Philips-LCT014-1-A19ECLv4"
+		},
+		"3": {
+			"state": {
+				"on": true,
+				"bri": 60,
+				"hue": 41491,
+				"sat": 78,
+				"effect": "none",
+				"xy": [
+					0.312,
+					0.328
+				],
+				"ct": 153,
+				"alert": "none",
+				"colormode": "ct",
+				"reachable": true
+			},
+			"type": "Extended color light",
+			"name": "Hue color lamp 3",
+			"modelid": "LCT014",
+			"manufacturername": "Philips",
+			"uniqueid": "00:17:88:01:02:4d:47:b4-0b",
+			"swversion": "1.15.2_r19181",
+			"swconfigid": "A315E69E",
+			"productid": "Philips-LCT014-1-A19ECLv4"
+		},
+		"4": {
+			"state": {
+				"on": true,
+				"bri": 60,
+				"hue": 42124,
+				"sat": 77,
+				"effect": "none",
+				"xy": [
+					0.3127,
+					0.3228
+				],
+				"ct": 153,
+				"alert": "select",
+				"colormode": "ct",
+				"reachable": true
+			},
+			"type": "Extended color light",
+			"name": "Hue lightstrip plus 1",
+			"modelid": "LST002",
+			"manufacturername": "Philips",
+			"uniqueid": "00:17:88:01:02:16:77:32-0b",
+			"swversion": "5.50.2.19072"
+		}
+	},
+	"groups": {
+		"1": {
+			"name": "My room",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"type": "Room",
+			"state": {
+				"all_on": false,
+				"any_on": true
+			},
+			"recycle": false,
+			"class": "Bedroom",
+			"action": {
+				"on": true,
+				"bri": 60,
+				"hue": 41491,
+				"sat": 78,
+				"effect": "none",
+				"xy": [
+					0.312,
+					0.328
+				],
+				"ct": 153,
+				"alert": "none",
+				"colormode": "ct"
+			}
+		},
+		"2": {
+			"name": "Living room",
+			"lights": [
+				"4"
+			],
+			"type": "Room",
+			"state": {
+				"all_on": true,
+				"any_on": true
+			},
+			"recycle": false,
+			"class": "Living room",
+			"action": {
+				"on": true,
+				"bri": 60,
+				"hue": 42124,
+				"sat": 77,
+				"effect": "none",
+				"xy": [
+					0.3127,
+					0.3228
+				],
+				"ct": 153,
+				"alert": "select",
+				"colormode": "ct"
+			}
+		},
+		"3": {
+			"name": "Custom group for $lights",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"type": "LightGroup",
+			"state": {
+				"all_on": false,
+				"any_on": true
+			},
+			"recycle": true,
+			"action": {
+				"on": true,
+				"bri": 60,
+				"hue": 42124,
+				"sat": 77,
+				"effect": "none",
+				"xy": [
+					0.3127,
+					0.3228
+				],
+				"ct": 153,
+				"alert": "select",
+				"colormode": "ct"
+			}
+		},
+		"4": {
+			"name": "Custom group for $lights",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"type": "LightGroup",
+			"state": {
+				"all_on": false,
+				"any_on": true
+			},
+			"recycle": true,
+			"action": {
+				"on": true,
+				"bri": 60,
+				"hue": 42124,
+				"sat": 77,
+				"effect": "none",
+				"xy": [
+					0.3127,
+					0.3228
+				],
+				"ct": 153,
+				"alert": "select",
+				"colormode": "ct"
+			}
+		},
+		"5": {
+			"name": "Custom group for $lights",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"type": "LightGroup",
+			"state": {
+				"all_on": false,
+				"any_on": true
+			},
+			"recycle": true,
+			"action": {
+				"on": true,
+				"bri": 60,
+				"hue": 42124,
+				"sat": 77,
+				"effect": "none",
+				"xy": [
+					0.3127,
+					0.3228
+				],
+				"ct": 153,
+				"alert": "select",
+				"colormode": "ct"
+			}
+		}
+	},
+	"config": {
+		"name": "Philips hue",
+		"zigbeechannel": 15,
+		"bridgeid": "001788FFFE4E76F9",
+		"mac": "00:17:88:4e:76:f9",
+		"dhcp": true,
+		"ipaddress": "192.168.0.25",
+		"netmask": "255.255.255.0",
+		"gateway": "192.168.0.1",
+		"proxyaddress": "none",
+		"proxyport": 0,
+		"UTC": "2017-05-17T06:20:44",
+		"localtime": "2017-05-16T23:20:44",
+		"timezone": "America/Los_Angeles",
+		"modelid": "BSB002",
+		"datastoreversion": "60",
+		"swversion": "01039019",
+		"apiversion": "1.18.0",
+		"swupdate": {
+			"updatestate": 0,
+			"checkforupdate": false,
+			"devicetypes": {
+				"bridge": false,
+				"lights": [],
+				"sensors": []
+			},
+			"url": "",
+			"text": "",
+			"notify": false
+		},
+		"linkbutton": false,
+		"portalservices": true,
+		"portalconnection": "connected",
+		"portalstate": {
+			"signedon": true,
+			"incoming": false,
+			"outgoing": true,
+			"communication": "disconnected"
+		},
+		"internetservices": {
+			"remoteaccess": "connected"
+		},
+		"factorynew": false,
+		"replacesbridgeid": null,
+		"backup": {
+			"status": "idle",
+			"errorcode": 0
+		},
+		"starterkitid": "",
+		"whitelist": {
+			"v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ": {
+				"last use date": "2017-05-17T04:15:53",
+				"create date": "2017-05-14T03:51:12",
+				"name": "hue_ios_app#Matt Sandoval’s iPhone"
+			},
+			"zd2WNmnZu0kiMk0RzNeovLnn89K73M4UzxKMY-la": {
+				"last use date": "2017-05-14T06:15:52",
+				"create date": "2017-05-14T04:16:54",
+				"name": "OnSwitch#Matt Sandoval’s i"
+			},
+			"aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h": {
+				"last use date": "2017-05-16T05:15:54",
+				"create date": "2017-05-14T06:03:32",
+				"name": "huelabs2"
+			},
+			"pM5BkDyRUurksN7WRy63xvFYy7Wn-EJ8NL59XKQP": {
+				"last use date": "2017-05-17T04:45:53",
+				"create date": "2017-05-15T05:50:46",
+				"name": "Hue 2#Samsung SAMSUNG-SM-"
+			},
+			"bwkYDWP2HzCZzTVHE12mVVPspqwrFEkW6GYxoHvz": {
+				"last use date": "2017-05-17T06:20:44",
+				"create date": "2017-05-16T14:42:57",
+				"name": "my_hue_app#DemonChild"
+			},
+			"i286g0t5qoh8gZQnT6lAmBYuKZoqU000n6fQA8Ni": {
+				"last use date": "2017-05-17T06:15:53",
+				"create date": "2017-05-17T04:09:39",
+				"name": "OnSwitch#Matt Sandoval’s i"
+			}
+		}
+	},
+	"schedules": {
+		"1": {
+			"name": "Wake up 1",
+			"description": "L_04_t6GHh_start wake up",
+			"command": {
+				"address": "/api/v9gDitp10tXtKTKKrigrb8G8SpC6XXL0/sensors/2/state",
+				"body": {
+					"flag": true
+				},
+				"method": "PUT"
+			},
+			"localtime": "2017-05-14T07:30:00",
+			"time": "2017-05-14T14:30:00",
+			"created": "2017-05-14T04:13:35",
+			"status": "disabled",
+			"autodelete": false,
+			"recycle": false
+		},
+		"2": {
+			"name": "L_04_t6GHh",
+			"description": "L_04_t6GHh_trigger end scene",
+			"command": {
+				"address": "/api/v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ/groups/0/action",
+				"body": {
+					"scene": "HUGg0EruYpb6Jl-"
+				},
+				"method": "PUT"
+			},
+			"localtime": "PT00:01:00",
+			"time": "PT00:01:00",
+			"created": "2017-05-14T04:13:31",
+			"status": "disabled",
+			"autodelete": false,
+			"starttime": "2017-05-14T14:30:00",
+			"recycle": false
+		},
+		"3": {
+			"name": "Go to sleep start",
+			"description": "Trigger go to sleep start",
+			"command": {
+				"address": "/api/v9gDitp10tXtKTKKrigrb8G8SpC6XXL0/sensors/3/state",
+				"body": {
+					"flag": true
+				},
+				"method": "PUT"
+			},
+			"localtime": "W127/T23:00:00",
+			"time": "W127/T06:00:00",
+			"created": "2017-05-16T05:05:10",
+			"status": "disabled",
+			"recycle": true
+		},
+		"4": {
+			"name": "schedule 4 huelabs/candlelight-",
+			"description": "4:recurringTimer huelabs/candlelight-romance",
+			"command": {
+				"address": "/api/aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h/groups/4/action",
+				"body": {
+					"transitiontime": 10,
+					"bri_inc": -5
+				},
+				"method": "PUT"
+			},
+			"localtime": "R/PT00:00:06A00:00:02",
+			"time": "R/PT00:00:06A00:00:02",
+			"created": "2017-05-14T06:29:56",
+			"status": "disabled",
+			"starttime": "2017-05-16T05:06:26",
+			"recycle": true
+		},
+		"5": {
+			"name": "schedule 5 huelabs/candlelight-",
+			"description": "5:recurringTimer huelabs/candlelight-romance",
+			"command": {
+				"address": "/api/aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h/groups/4/action",
+				"body": {
+					"transitiontime": 10,
+					"bri_inc": 5
+				},
+				"method": "PUT"
+			},
+			"localtime": "R/PT00:00:06A00:00:02",
+			"time": "R/PT00:00:06A00:00:02",
+			"created": "2017-05-14T06:29:56",
+			"status": "disabled",
+			"starttime": "2017-05-16T05:06:26",
+			"recycle": true
+		},
+		"6": {
+			"name": "schedule 6 huelabs/candlelight-",
+			"description": "6:recurringTimer huelabs/candlelight-romance",
+			"command": {
+				"address": "/api/aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h/groups/4/action",
+				"body": {
+					"transitiontime": 10,
+					"bri_inc": -6
+				},
+				"method": "PUT"
+			},
+			"localtime": "R/PT00:00:06A00:00:02",
+			"time": "R/PT00:00:06A00:00:02",
+			"created": "2017-05-14T06:29:56",
+			"status": "disabled",
+			"starttime": "2017-05-16T05:06:26",
+			"recycle": true
+		},
+		"7": {
+			"name": "schedule 7 huelabs/candlelight-",
+			"description": "7:recurringTimer huelabs/candlelight-romance",
+			"command": {
+				"address": "/api/aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h/groups/4/action",
+				"body": {
+					"transitiontime": 20,
+					"bri": 16
+				},
+				"method": "PUT"
+			},
+			"localtime": "R/PT00:00:10A00:00:03",
+			"time": "R/PT00:00:10A00:00:03",
+			"created": "2017-05-14T06:29:56",
+			"status": "disabled",
+			"starttime": "2017-05-16T05:06:26",
+			"recycle": true
+		}
+	},
+	"scenes": {
+		"oxVwZYkjVVnf6gx": {
+			"name": "Relax",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "4GGMF_r01_d01"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:35",
+			"version": 2
+		},
+		"a1C5jXkcwsEFZvm": {
+			"name": "Read",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "sTrxL_r01_d02"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:35",
+			"version": 2
+		},
+		"PMYNQ4gVmjsAZfQ": {
+			"name": "Concentrate",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "1vEa5_r01_d03"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:36",
+			"version": 2
+		},
+		"sXaxwJCOXLnm87c": {
+			"name": "Energize",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "qaPL2_r01_d04"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:36",
+			"version": 2
+		},
+		"eo3LdoaY4uf2tpn": {
+			"name": "Bright",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "lIwNB_r01_d05"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:36",
+			"version": 2
+		},
+		"rwA3IZW9N2eaI-6": {
+			"name": "Dimmed",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "yGa8I_r01_d06"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:36",
+			"version": 2
+		},
+		"L25TJreMTWePSvp": {
+			"name": "Nightlight",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "99cWi_r01_d07"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:36",
+			"version": 2
+		},
+		"HkgizHPzq6KxHl-": {
+			"name": "Savanna sunset",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": true,
+			"appdata": {
+				"version": 1,
+				"data": "U7WAq_r01_d15"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:36",
+			"version": 2
+		},
+		"NTEgK41gzYmTdJE": {
+			"name": "Tropical twilight",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "jaNYd_r01_d16"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:36",
+			"version": 2
+		},
+		"lQKM87zdhNWIphA": {
+			"name": "Arctic aurora",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "Mo7u9_r01_d17"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:37",
+			"version": 2
+		},
+		"yr0QOzg4FZcxLbS": {
+			"name": "Spring blossom",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "Dmq4D_r01_d18"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T03:54:37",
+			"version": 2
+		},
+		"rxHrxaJbzbFxZFv": {
+			"name": "Wake Up init",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:52:44",
+			"version": 2
+		},
+		"HUGg0EruYpb6Jl-": {
+			"name": "Wake Up end",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:52:44",
+			"version": 2
+		},
+		"K-WqpOZ3qb2YuIP": {
+			"name": "Go to sleep start",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": true,
+			"locked": true,
+			"appdata": {
+				"version": 1,
+				"data": "5bVP2_r00"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:52:44",
+			"version": 2
+		},
+		"TUa7uTW8CGJFCS5": {
+			"name": "Go to sleep end",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": true,
+			"locked": true,
+			"appdata": {
+				"version": 1,
+				"data": "UaLD9_r00"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:52:44",
+			"version": 2
+		},
+		"hUnq-YV2-jnPClA": {
+			"name": "Scene 1",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "ET952_r01_d99"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-15T04:19:50",
+			"version": 2
+		},
+		"DhXHGI9l6LRKdbC": {
+			"name": "Relax",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "uY26S_r02_d01"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"xQplsvw-1F4Fo0i": {
+			"name": "Read",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "9Igrk_r02_d02"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"LxI3DviJctFSKzB": {
+			"name": "Concentrate",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "6rKSK_r02_d03"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"ewLGrSsn3lx8pk7": {
+			"name": "Energize",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "1U1Kp_r02_d04"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"XU2JJyebJyozxci": {
+			"name": "Bright",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "A8oDC_r02_d05"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"ctHekaTZhZ8Uq84": {
+			"name": "Dimmed",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "TsxSe_r02_d06"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"AqwvlO3pyfB9tdg": {
+			"name": "Nightlight",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "4Cj5P_r02_d07"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"D3cB7I5NQExuhK2": {
+			"name": "Savanna sunset",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "SuCPM_r02_d15"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"kfnV-JhqPHhkeCg": {
+			"name": "Tropical twilight",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "sxQLX_r02_d16"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"2x9U2kAYUxk7LB8": {
+			"name": "Arctic aurora",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "IuyvO_r02_d17"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"7RXTssmceGZP6A4": {
+			"name": "Spring blossom",
+			"lights": [
+				"4"
+			],
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"locked": false,
+			"appdata": {
+				"version": 1,
+				"data": "plPGZ_r02_d18"
+			},
+			"picture": "",
+			"lastupdated": "2017-05-14T05:53:14",
+			"version": 2
+		},
+		"pPXOGfOBTLHIIl7": {
+			"name": "Scene myScene1 huelabs/scene-p",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:06:20",
+			"version": 2
+		},
+		"Cs3urot77s3j98S": {
+			"name": "Scene myScene2 huelabs/scene-p",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:06:20",
+			"version": 2
+		},
+		"rxLR-JdKibzEiyA": {
+			"name": "Scene myScene3 huelabs/scene-p",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:06:20",
+			"version": 2
+		},
+		"iVIqEadPJclRgz2": {
+			"name": "Scene myScene4 huelabs/scene-p",
+			"lights": [
+				"1",
+				"2",
+				"3"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:06:21",
+			"version": 2
+		},
+		"rpl4-F5fSSDKgTL": {
+			"name": "Scene scene0 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:09:16",
+			"version": 2
+		},
+		"Q33j6rcHzL52CH6": {
+			"name": "Scene scene1 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:09:17",
+			"version": 2
+		},
+		"7Ls4VFVbgbvYITt": {
+			"name": "Scene scene2 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:09:17",
+			"version": 2
+		},
+		"tcY2p1jibZGetsY": {
+			"name": "Scene scene3 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:09:18",
+			"version": 2
+		},
+		"6vrHYHF3QVRy88D": {
+			"name": "Scene scene4 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:09:18",
+			"version": 2
+		},
+		"Qv9HXwgMwhWnzCa": {
+			"name": "Scene scene5 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:09:19",
+			"version": 2
+		},
+		"Rz-mKM8POE5Ws2b": {
+			"name": "Scene scene0 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:25",
+			"version": 2
+		},
+		"wnwZE-W0LY7HPTq": {
+			"name": "Scene scene1 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:25",
+			"version": 2
+		},
+		"rd6LLzcr1AFHL9T": {
+			"name": "Scene scene2 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:25",
+			"version": 2
+		},
+		"OW5ihz6D1C8ISnv": {
+			"name": "Scene scene3 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:26",
+			"version": 2
+		},
+		"0Rzw5G9rQAvxql8": {
+			"name": "Scene scene4 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:26",
+			"version": 2
+		},
+		"SB4RJdBlzO1MCUw": {
+			"name": "Scene scene5 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:27",
+			"version": 2
+		},
+		"wFUCVqgE8Vy38Dx": {
+			"name": "Scene scene0 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:48",
+			"version": 2
+		},
+		"AdF2M6X4xD-BUAK": {
+			"name": "Scene scene1 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:49",
+			"version": 2
+		},
+		"3H3zVU83edvp3go": {
+			"name": "Scene scene2 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:49",
+			"version": 2
+		},
+		"IpP2wRbJvhoXhFH": {
+			"name": "Scene scene3 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:49",
+			"version": 2
+		},
+		"66IL6-231YsumQd": {
+			"name": "Scene scene4 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:50",
+			"version": 2
+		},
+		"YcOi7oPWqC6VnRQ": {
+			"name": "Scene scene5 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:21:50",
+			"version": 2
+		},
+		"mk37vzgFRwuTIsJ": {
+			"name": "Scene scene0 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:37",
+			"version": 2
+		},
+		"YV3rLeqdzzPmla8": {
+			"name": "Scene scene1 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:37",
+			"version": 2
+		},
+		"79HAEhS8CWDuN48": {
+			"name": "Scene scene2 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:37",
+			"version": 2
+		},
+		"6qZiaLq2XucBMUI": {
+			"name": "Scene scene3 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:38",
+			"version": 2
+		},
+		"H3hvDfOzdhG6M-c": {
+			"name": "Scene scene4 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:38",
+			"version": 2
+		},
+		"1lPUnHEvPAnjPF7": {
+			"name": "Scene scene5 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:38",
+			"version": 2
+		},
+		"3If46xndeqOdylS": {
+			"name": "Scene scene0 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:51",
+			"version": 2
+		},
+		"mhAQCWCKFudD6FI": {
+			"name": "Scene scene1 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:52",
+			"version": 2
+		},
+		"tBPg9WC0nNrUCmW": {
+			"name": "Scene scene2 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:52",
+			"version": 2
+		},
+		"MLhMKGfFjmh2MK1": {
+			"name": "Scene scene3 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:52",
+			"version": 2
+		},
+		"QKzVpHujYH4N7V8": {
+			"name": "Scene scene4 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:53",
+			"version": 2
+		},
+		"rtQTmIyyLd7IoqW": {
+			"name": "Scene scene5 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": false,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:22:53",
+			"version": 2
+		},
+		"KSeBDuChZkjLxle": {
+			"name": "Scene scene0 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:24:56",
+			"version": 2
+		},
+		"W0nZqaZTbDava7w": {
+			"name": "Scene scene1 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:24:56",
+			"version": 2
+		},
+		"kw2SzPpPzlG3W72": {
+			"name": "Scene scene2 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:24:56",
+			"version": 2
+		},
+		"e0BKd7kbGKOtJtR": {
+			"name": "Scene scene3 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:24:57",
+			"version": 2
+		},
+		"YzL1pGtS70HGoli": {
+			"name": "Scene scene4 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:24:57",
+			"version": 2
+		},
+		"FNn9wGACLTmCntu": {
+			"name": "Scene scene5 huelabs/living-sc",
+			"lights": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"locked": true,
+			"appdata": {},
+			"picture": "",
+			"lastupdated": "2017-05-14T06:24:58",
+			"version": 2
+		}
+	},
+	"rules": {
+		"1": {
+			"name": "L_04_t6GHh_Start",
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"created": "2017-05-14T04:13:31",
+			"lasttriggered": "2017-05-14T14:30:00",
+			"timestriggered": 1,
+			"status": "enabled",
+			"recycle": false,
+			"conditions": [
+				{
+					"address": "/sensors/2/state/flag",
+					"operator": "eq",
+					"value": "true"
+				}
+			],
+			"actions": [
+				{
+					"address": "/schedules/2",
+					"method": "PUT",
+					"body": {
+						"status": "enabled"
+					}
+				},
+				{
+					"address": "/sensors/2/state",
+					"method": "PUT",
+					"body": {
+						"flag": false
+					}
+				},
+				{
+					"address": "/groups/1/action",
+					"method": "PUT",
+					"body": {
+						"scene": "rxHrxaJbzbFxZFv"
+					}
+				}
+			]
+		},
+		"2": {
+			"name": "Go to sleep start",
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"created": "2017-05-14T04:14:01",
+			"lasttriggered": "2017-05-15T06:00:00",
+			"timestriggered": 2,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/3/state/flag",
+					"operator": "eq",
+					"value": "true"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/0/action",
+					"method": "PUT",
+					"body": {
+						"scene": "K-WqpOZ3qb2YuIP"
+					}
+				}
+			]
+		},
+		"3": {
+			"name": "Go to sleep fade",
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"created": "2017-05-14T04:14:01",
+			"lasttriggered": "2017-05-15T06:01:00",
+			"timestriggered": 2,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/3/state/flag",
+					"operator": "eq",
+					"value": "true"
+				},
+				{
+					"address": "/sensors/3/state/flag",
+					"operator": "ddx",
+					"value": "PT00:01:00"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/0/action",
+					"method": "PUT",
+					"body": {
+						"scene": "TUa7uTW8CGJFCS5"
+					}
+				},
+				{
+					"address": "/sensors/3/state",
+					"method": "PUT",
+					"body": {
+						"flag": false
+					}
+				}
+			]
+		},
+		"4": {
+			"name": "18:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-16T05:06:22",
+			"timestriggered": 9,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/22/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/22/state/lastupdated",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "1"
+				}
+			],
+			"actions": [
+				{
+					"address": "/sensors/23/state",
+					"method": "PUT",
+					"body": {
+						"status": 0
+					}
+				},
+				{
+					"address": "/groups/5/action",
+					"method": "PUT",
+					"body": {
+						"scene": "KSeBDuChZkjLxle"
+					}
+				}
+			]
+		},
+		"5": {
+			"name": "19:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-16T05:06:23",
+			"timestriggered": 34,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/23/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:00:01"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/5/action",
+					"method": "PUT",
+					"body": {
+						"scene": "W0nZqaZTbDava7w"
+					}
+				}
+			]
+		},
+		"6": {
+			"name": "20:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-14T07:09:23",
+			"timestriggered": 27,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/23/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:00:20"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/5/action",
+					"method": "PUT",
+					"body": {
+						"scene": "kw2SzPpPzlG3W72"
+					}
+				}
+			]
+		},
+		"7": {
+			"name": "21:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-14T07:09:43",
+			"timestriggered": 26,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/23/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:00:40"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/5/action",
+					"method": "PUT",
+					"body": {
+						"scene": "e0BKd7kbGKOtJtR"
+					}
+				}
+			]
+		},
+		"8": {
+			"name": "22:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-14T07:08:23",
+			"timestriggered": 25,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/23/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:01:00"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/5/action",
+					"method": "PUT",
+					"body": {
+						"scene": "YzL1pGtS70HGoli"
+					}
+				}
+			]
+		},
+		"9": {
+			"name": "12:huelabs/scene-playlist",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:06:21",
+			"lasttriggered": "2017-05-16T05:00:31",
+			"timestriggered": 8,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/6/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/6/state/lastupdated",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/7/state/status",
+					"operator": "eq",
+					"value": "1"
+				}
+			],
+			"actions": [
+				{
+					"address": "/sensors/7/state",
+					"method": "PUT",
+					"body": {
+						"status": 0
+					}
+				},
+				{
+					"address": "/groups/1/action",
+					"method": "PUT",
+					"body": {
+						"scene": "HkgizHPzq6KxHl-"
+					}
+				}
+			]
+		},
+		"10": {
+			"name": "13:huelabs/scene-playlist",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:06:21",
+			"lasttriggered": "2017-05-14T06:34:01",
+			"timestriggered": 3,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/6/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/6/state/lastupdated",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/7/state/status",
+					"operator": "eq",
+					"value": "0"
+				}
+			],
+			"actions": [
+				{
+					"address": "/sensors/7/state",
+					"method": "PUT",
+					"body": {
+						"status": 1
+					}
+				},
+				{
+					"address": "/groups/1/action",
+					"method": "PUT",
+					"body": {
+						"on": false
+					}
+				}
+			]
+		},
+		"11": {
+			"name": "14:huelabs/scene-playlist",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:06:21",
+			"lasttriggered": "2017-05-16T05:00:42",
+			"timestriggered": 5,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/groups/1/state/all_on",
+					"operator": "eq",
+					"value": "false"
+				},
+				{
+					"address": "/groups/1/state/all_on",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/7/state/status",
+					"operator": "eq",
+					"value": "0"
+				}
+			],
+			"actions": [
+				{
+					"address": "/sensors/7/state",
+					"method": "PUT",
+					"body": {
+						"status": 1
+					}
+				}
+			]
+		},
+		"12": {
+			"name": "15:huelabs/scene-playlist",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:06:21",
+			"lasttriggered": "2017-05-16T05:00:31",
+			"timestriggered": 8,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/7/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/7/state/lastupdated",
+					"operator": "dx"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/1/action",
+					"method": "PUT",
+					"body": {
+						"scene": "Cs3urot77s3j98S"
+					}
+				}
+			]
+		},
+		"13": {
+			"name": "16:huelabs/scene-playlist",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:06:21",
+			"lasttriggered": "none",
+			"timestriggered": 0,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/7/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/7/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:02:00"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/1/action",
+					"method": "PUT",
+					"body": {
+						"scene": "rxLR-JdKibzEiyA"
+					}
+				}
+			]
+		},
+		"14": {
+			"name": "17:huelabs/scene-playlist",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:06:22",
+			"lasttriggered": "none",
+			"timestriggered": 0,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/7/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/7/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:04:00"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/1/action",
+					"method": "PUT",
+					"body": {
+						"scene": "iVIqEadPJclRgz2"
+					}
+				}
+			]
+		},
+		"15": {
+			"name": "18:huelabs/scene-playlist",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:06:22",
+			"lasttriggered": "none",
+			"timestriggered": 0,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/7/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/7/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:06:00"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/1/action",
+					"method": "PUT",
+					"body": {
+						"scene": "pPXOGfOBTLHIIl7"
+					}
+				},
+				{
+					"address": "/sensors/7/state",
+					"method": "PUT",
+					"body": {
+						"status": 0
+					}
+				}
+			]
+		},
+		"16": {
+			"name": "3:huelabs/prepare-me-to-go-to-s",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:07:25",
+			"lasttriggered": "2017-05-14T06:33:50",
+			"timestriggered": 7,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/8/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/8/state/lastupdated",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/9/state/status",
+					"operator": "eq",
+					"value": "1"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/3/action",
+					"method": "PUT",
+					"body": {
+						"on": true,
+						"xy": [
+							0.5018,
+							0.4152
+						],
+						"transitiontime": 0,
+						"ct": 454,
+						"bri": 145
+					}
+				},
+				{
+					"address": "/sensors/9/state",
+					"method": "PUT",
+					"body": {
+						"status": 0
+					}
+				}
+			]
+		},
+		"17": {
+			"name": "4:huelabs/prepare-me-to-go-to-s",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:07:25",
+			"lasttriggered": "2017-05-14T06:33:51",
+			"timestriggered": 7,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/9/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/9/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:00:01"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/3/action",
+					"method": "PUT",
+					"body": {
+						"on": false,
+						"xy": [
+							0.561,
+							0.4042
+						],
+						"transitiontime": 18000,
+						"ct": 454
+					}
+				}
+			]
+		},
+		"18": {
+			"name": "5:huelabs/prepare-me-to-go-to-s",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:07:25",
+			"lasttriggered": "2017-05-14T06:33:54",
+			"timestriggered": 7,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/9/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/9/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:00:04"
+				}
+			],
+			"actions": [
+				{
+					"address": "/sensors/9/state",
+					"method": "PUT",
+					"body": {
+						"status": 1
+					}
+				}
+			]
+		},
+		"19": {
+			"name": "9:huelabs/candlelight-romance",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:29:56",
+			"lasttriggered": "2017-05-16T05:06:25",
+			"timestriggered": 5,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/24/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/24/state/lastupdated",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/25/state/status",
+					"operator": "eq",
+					"value": "1"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/4/action",
+					"method": "PUT",
+					"body": {
+						"on": true,
+						"xy": [
+							0.561,
+							0.4042
+						],
+						"transitiontime": 10,
+						"ct": 454,
+						"bri": 16
+					}
+				},
+				{
+					"address": "/sensors/25/state",
+					"method": "PUT",
+					"body": {
+						"status": 0
+					}
+				}
+			]
+		},
+		"20": {
+			"name": "10:huelabs/candlelight-romance",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:29:56",
+			"lasttriggered": "2017-05-16T05:06:26",
+			"timestriggered": 5,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/25/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/25/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:00:01"
+				}
+			],
+			"actions": [
+				{
+					"address": "/schedules/4",
+					"method": "PUT",
+					"body": {
+						"status": "enabled"
+					}
+				},
+				{
+					"address": "/schedules/5",
+					"method": "PUT",
+					"body": {
+						"status": "enabled"
+					}
+				},
+				{
+					"address": "/schedules/6",
+					"method": "PUT",
+					"body": {
+						"status": "enabled"
+					}
+				},
+				{
+					"address": "/schedules/7",
+					"method": "PUT",
+					"body": {
+						"status": "enabled"
+					}
+				}
+			]
+		},
+		"21": {
+			"name": "11:huelabs/candlelight-romance",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:29:56",
+			"lasttriggered": "2017-05-16T05:06:27",
+			"timestriggered": 2,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/24/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/24/state/lastupdated",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/25/state/status",
+					"operator": "eq",
+					"value": "0"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/4/action",
+					"method": "PUT",
+					"body": {
+						"on": false,
+						"transitiontime": 20
+					}
+				},
+				{
+					"address": "/sensors/25/state",
+					"method": "PUT",
+					"body": {
+						"status": 1
+					}
+				}
+			]
+		},
+		"22": {
+			"name": "12:huelabs/candlelight-romance",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:29:57",
+			"lasttriggered": "2017-05-16T05:06:27",
+			"timestriggered": 7,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/25/state/status",
+					"operator": "eq",
+					"value": "1"
+				},
+				{
+					"address": "/sensors/25/state/lastupdated",
+					"operator": "dx"
+				}
+			],
+			"actions": [
+				{
+					"address": "/schedules/4",
+					"method": "PUT",
+					"body": {
+						"status": "disabled"
+					}
+				},
+				{
+					"address": "/schedules/5",
+					"method": "PUT",
+					"body": {
+						"status": "disabled"
+					}
+				},
+				{
+					"address": "/schedules/6",
+					"method": "PUT",
+					"body": {
+						"status": "disabled"
+					}
+				},
+				{
+					"address": "/schedules/7",
+					"method": "PUT",
+					"body": {
+						"status": "disabled"
+					}
+				}
+			]
+		},
+		"23": {
+			"name": "13:huelabs/candlelight-romance",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:29:57",
+			"lasttriggered": "2017-05-16T05:06:27",
+			"timestriggered": 5,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/groups/4/state/any_on",
+					"operator": "eq",
+					"value": "false"
+				},
+				{
+					"address": "/groups/4/state/any_on",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/25/state/status",
+					"operator": "eq",
+					"value": "0"
+				}
+			],
+			"actions": [
+				{
+					"address": "/schedules/4",
+					"method": "PUT",
+					"body": {
+						"status": "disabled"
+					}
+				},
+				{
+					"address": "/schedules/5",
+					"method": "PUT",
+					"body": {
+						"status": "disabled"
+					}
+				},
+				{
+					"address": "/schedules/6",
+					"method": "PUT",
+					"body": {
+						"status": "disabled"
+					}
+				},
+				{
+					"address": "/schedules/7",
+					"method": "PUT",
+					"body": {
+						"status": "disabled"
+					}
+				},
+				{
+					"address": "/sensors/25/state",
+					"method": "PUT",
+					"body": {
+						"status": 1
+					}
+				}
+			]
+		},
+		"33": {
+			"name": "23:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-14T07:08:43",
+			"timestriggered": 25,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/23/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:01:20"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/5/action",
+					"method": "PUT",
+					"body": {
+						"scene": "FNn9wGACLTmCntu"
+					}
+				}
+			]
+		},
+		"34": {
+			"name": "24:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-14T07:09:03",
+			"timestriggered": 25,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/23/state/lastupdated",
+					"operator": "ddx",
+					"value": "PT00:01:40"
+				}
+			],
+			"actions": [
+				{
+					"address": "/sensors/23/state",
+					"method": "PUT",
+					"body": {
+						"status": 0
+					}
+				}
+			]
+		},
+		"35": {
+			"name": "25:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-16T05:06:24",
+			"timestriggered": 7,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/sensors/22/state/status",
+					"operator": "eq",
+					"value": "0"
+				},
+				{
+					"address": "/sensors/22/state/lastupdated",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "0"
+				}
+			],
+			"actions": [
+				{
+					"address": "/groups/5/action",
+					"method": "PUT",
+					"body": {
+						"on": false
+					}
+				},
+				{
+					"address": "/sensors/23/state",
+					"method": "PUT",
+					"body": {
+						"status": 1
+					}
+				}
+			]
+		},
+		"36": {
+			"name": "26:huelabs/living-scenes",
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"created": "2017-05-14T06:24:58",
+			"lasttriggered": "2017-05-16T05:06:24",
+			"timestriggered": 9,
+			"status": "enabled",
+			"recycle": true,
+			"conditions": [
+				{
+					"address": "/groups/5/state/all_on",
+					"operator": "eq",
+					"value": "false"
+				},
+				{
+					"address": "/groups/5/state/all_on",
+					"operator": "dx"
+				},
+				{
+					"address": "/sensors/23/state/status",
+					"operator": "eq",
+					"value": "0"
+				}
+			],
+			"actions": [
+				{
+					"address": "/sensors/23/state",
+					"method": "PUT",
+					"body": {
+						"status": 1
+					}
+				}
+			]
+		}
+	},
+	"sensors": {
+		"1": {
+			"state": {
+				"daylight": null,
+				"lastupdated": "none"
+			},
+			"config": {
+				"on": true,
+				"configured": false,
+				"sunriseoffset": 30,
+				"sunsetoffset": -30
+			},
+			"name": "Daylight",
+			"type": "Daylight",
+			"modelid": "PHDL00",
+			"manufacturername": "Philips",
+			"swversion": "1.0"
+		},
+		"2": {
+			"state": {
+				"flag": false,
+				"lastupdated": "2017-05-14T14:30:00"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "Wake up 1",
+			"type": "CLIPGenericFlag",
+			"modelid": "WAKEUP",
+			"manufacturername": "Philips",
+			"swversion": "A_1",
+			"uniqueid": "L_04_t6GHh",
+			"recycle": false
+		},
+		"3": {
+			"state": {
+				"flag": false,
+				"lastupdated": "2017-05-15T06:01:00"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "Go to sleep",
+			"type": "CLIPGenericFlag",
+			"modelid": "GOTOSLEEP",
+			"manufacturername": "Philips",
+			"swversion": "A_1",
+			"uniqueid": "L_05_wWQoz",
+			"recycle": true
+		},
+		"6": {
+			"state": {
+				"status": 1,
+				"lastupdated": "2017-05-16T05:00:31"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "Play and stop",
+			"type": "CLIPGenericStatus",
+			"modelid": "HUELABSVDIMMER",
+			"manufacturername": "Philips",
+			"swversion": "1.0",
+			"uniqueid": "93b3-c041-4803-bbe7",
+			"recycle": true
+		},
+		"7": {
+			"state": {
+				"status": 1,
+				"lastupdated": "2017-05-16T05:00:42"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "sceneCounter",
+			"type": "CLIPGenericStatus",
+			"modelid": "HUELABSSTOGGLE",
+			"manufacturername": "Philips",
+			"swversion": "1.0",
+			"uniqueid": "2:6:2aa5-63f0-4282-9b1a",
+			"recycle": true
+		},
+		"8": {
+			"state": {
+				"status": 1,
+				"lastupdated": "2017-05-14T06:33:53"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "Start",
+			"type": "CLIPGenericStatus",
+			"modelid": "HUELABSVDIMMER",
+			"manufacturername": "Philips",
+			"swversion": "1.0",
+			"uniqueid": "6d16-6e81-4559-8621",
+			"recycle": true
+		},
+		"9": {
+			"state": {
+				"status": 1,
+				"lastupdated": "2017-05-14T06:33:54"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "time",
+			"type": "CLIPGenericStatus",
+			"modelid": "HUELABSENUM",
+			"manufacturername": "Philips",
+			"swversion": "1.0",
+			"uniqueid": "2:0:ed81-0b60-4530-8499",
+			"recycle": true
+		},
+		"22": {
+			"state": {
+				"status": 1,
+				"lastupdated": "2017-05-16T05:06:24"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "Play and stop",
+			"type": "CLIPGenericStatus",
+			"modelid": "HUELABSVDIMMER",
+			"manufacturername": "Philips",
+			"swversion": "1.0",
+			"uniqueid": "9864-9187-4f85-89ea",
+			"recycle": true
+		},
+		"23": {
+			"state": {
+				"status": 1,
+				"lastupdated": "2017-05-16T05:06:24"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "player",
+			"type": "CLIPGenericStatus",
+			"modelid": "HUELABSSTOGGLE",
+			"manufacturername": "Philips",
+			"swversion": "1.0",
+			"uniqueid": "2:16:66a6-89b4-4c9a-9182",
+			"recycle": true
+		},
+		"24": {
+			"state": {
+				"status": 1,
+				"lastupdated": "2017-05-16T05:06:27"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "start - stop",
+			"type": "CLIPGenericStatus",
+			"modelid": "HUELABSVDIMMER",
+			"manufacturername": "Philips",
+			"swversion": "1.0",
+			"uniqueid": "3e5d-b1b7-40fc-bf6d",
+			"recycle": true
+		},
+		"25": {
+			"state": {
+				"status": 1,
+				"lastupdated": "2017-05-16T05:06:27"
+			},
+			"config": {
+				"on": true,
+				"reachable": true
+			},
+			"name": "state",
+			"type": "CLIPGenericStatus",
+			"modelid": "HUELABSSTOGGLE",
+			"manufacturername": "Philips",
+			"swversion": "1.0",
+			"uniqueid": "2:0:821b-38d6-4db9-a0cb",
+			"recycle": true
+		}
+	},
+	"resourcelinks": {
+		"4240": {
+			"name": "Scene playlist",
+			"description": "67e643b06c660c0ac2837ab1e4c0684f:0:efb14182f0004309ce5b1e718b23",
+			"type": "Link",
+			"classid": 2,
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"links": [
+				"/sensors/6",
+				"/sensors/7",
+				"/scenes/pPXOGfOBTLHIIl7",
+				"/scenes/Cs3urot77s3j98S",
+				"/scenes/rxLR-JdKibzEiyA",
+				"/scenes/iVIqEadPJclRgz2",
+				"/rules/9",
+				"/rules/10",
+				"/rules/11",
+				"/rules/12",
+				"/rules/13",
+				"/rules/14",
+				"/rules/15"
+			]
+		},
+		"5567": {
+			"name": "Prepare me to go to sleep",
+			"description": "03a2fe1f2faa6fb8885ba891557bf4d0:0:0f3c2bbcf30d7c2252ad7215d484",
+			"type": "Link",
+			"classid": 2,
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"links": [
+				"/sensors/8",
+				"/groups/3",
+				"/sensors/9",
+				"/rules/16",
+				"/rules/17",
+				"/rules/18"
+			]
+		},
+		"11332": {
+			"name": "Candlelight romance",
+			"description": "34fdd98962ab79faae6d0773627c4b82:0:b17fac0cf372a332ff41f75cfba6",
+			"type": "Link",
+			"classid": 2,
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"links": [
+				"/sensors/24",
+				"/groups/4",
+				"/sensors/25",
+				"/schedules/4",
+				"/schedules/5",
+				"/schedules/6",
+				"/schedules/7",
+				"/rules/19",
+				"/rules/20",
+				"/rules/21",
+				"/rules/22",
+				"/rules/23"
+			]
+		},
+		"30020": {
+			"name": "Living scenes",
+			"description": "204c310ce986aa919980e87993c2a0a1:0:5b8069f271584c57811ce6b3e88b",
+			"type": "Link",
+			"classid": 2,
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": true,
+			"links": [
+				"/sensors/22",
+				"/groups/5",
+				"/scenes/KSeBDuChZkjLxle",
+				"/scenes/W0nZqaZTbDava7w",
+				"/scenes/kw2SzPpPzlG3W72",
+				"/scenes/e0BKd7kbGKOtJtR",
+				"/scenes/YzL1pGtS70HGoli",
+				"/scenes/FNn9wGACLTmCntu",
+				"/sensors/23",
+				"/rules/4",
+				"/rules/5",
+				"/rules/6",
+				"/rules/7",
+				"/rules/8",
+				"/rules/33",
+				"/rules/34",
+				"/rules/35",
+				"/rules/36"
+			]
+		},
+		"42001": {
+			"name": "HueLabs 2.0",
+			"description": "All installed formulas",
+			"type": "Link",
+			"classid": 1,
+			"owner": "aPtB1IOFgrmt8xyzdigsNHMLv2ySo62B6kuNNl0h",
+			"recycle": false,
+			"links": [
+				"/resourcelinks/4240",
+				"/resourcelinks/5567",
+				"/resourcelinks/30020",
+				"/resourcelinks/11332"
+			]
+		},
+		"63969": {
+			"name": "Go to sleep 1",
+			"description": "Go to sleep behaviour",
+			"type": "Link",
+			"classid": 20010,
+			"owner": "v9gDitp10tXtKTKKrigrb8G8SpC6XXL05NrsaNWZ",
+			"recycle": false,
+			"links": [
+				"/sensors/3",
+				"/schedules/3",
+				"/groups/0",
+				"/rules/2",
+				"/rules/3",
+				"/scenes/K-WqpOZ3qb2YuIP",
+				"/scenes/TUa7uTW8CGJFCS5"
+			]
+		}
+	}
+}
